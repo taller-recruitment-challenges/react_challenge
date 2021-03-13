@@ -1,13 +1,13 @@
-import React, {useContext} from 'react';
+import React from 'react';
 import {BrowserRouter, Redirect, Route, Switch} from 'react-router-dom';
-import HomePage from "../pages/home/HomePage";
+import DashBoardPage from "../pages/dashboard/DashBoardPage";
 
 const Router = () => {
 
     return (
         <BrowserRouter>
             <Switch>
-                <Route exact path="/" component={HomePage} />
+                <Route exact path="/" component={DashBoardPage} />
                 <Route render={() => <Redirect to="/" />} />
             </Switch>
         </BrowserRouter>
