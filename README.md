@@ -15,3 +15,7 @@ You will fork this repo and deliver the code in a public repository at github.
 ## URLS:
 - https://jsonplaceholder.typicode.com/users
 - https://jsonplaceholder.typicode.com/todos?userId=USERID
+
+## Expected Result
+![Imgur Image](https://i.imgur.com/L2j9snk.png)
+![Imgur Image](https://i.imgur.com/I8WOH0a.png)
