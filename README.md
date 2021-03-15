@@ -6,7 +6,7 @@ a table of users, and another table of the tasks of the selected users.
 
 You will fork this repo and deliver the code in a public repository at github.
 
-## Desirable:
+## Requirements:
 - Implement the catchphrase column in the user table.
 - Implement the necessary project structure to make the API calls with AXIOS.
 - Implement routing with the navbar to make visible one datagrid per time.
