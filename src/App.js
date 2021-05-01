@@ -1,11 +1,16 @@
 import React from "react";
-import './App.css';
+import { QueryClient, QueryClientProvider } from "react-query";
+import "./App.css";
 import Router from "./utils/router";
 import DashBoardPage from "./pages/dashboard/DashBoardPage";
 
+const queryClient = new QueryClient();
+
 function App() {
   return (
-    <DashBoardPage />
+    <QueryClientProvider client={queryClient}>
+      <DashBoardPage />
+    </QueryClientProvider>
   );
 }
 
